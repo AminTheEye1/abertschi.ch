@@ -1,4 +1,4 @@
-# Turn off indexing of files and directories.
+|# Turn off indexing of files and directories.
 Options -Indexes
 
 # Turn on rewrites.
@@ -21,3 +21,4 @@ RewriteRule ^(.*)$ /app/$1 [L]
 # Redirect the root folder.
 RewriteCond %{HTTP_HOST} ^(www.)?abertschi.ch$
 RewriteRule ^(/)?$ /app/index.html [L]
+|
